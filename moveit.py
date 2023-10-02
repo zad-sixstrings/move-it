@@ -65,8 +65,8 @@ class FileMoverApp(QWidget):
         self.log_text = QTextEdit(self)
         self.log_text.setReadOnly(True)
         self.log_text.setPlaceholderText('Welcome to Move it!\n\n\
-Select source and destination folder, then type in the file extensions you want to move (without the "." dot and separated by commas) and click the "Move it!" \
-button to start moving your files.\n\nPro tip : Leave the file extensions field empty to move every file in the source folder. Folders will not be moved, only files.')
+Select source and destination folders, then type in the file extensions you want to filter (without the "." dot and separated by commas) and click the "Move it!" \
+button to start moving your files.\n\nPro tip : Leave the file extensions field empty to move every file in the source folder. Only files will be moved, not folders.')
         # The default scrollbar gives me anxiety
         self.log_text.verticalScrollBar().setStyleSheet('''
             QScrollBar:vertical {
