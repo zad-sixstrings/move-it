@@ -39,4 +39,5 @@ Thumbs.db
 # Project specific stuff #
 ##########################
 build/
+dist/
 moveit.spec
